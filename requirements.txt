@@ -1,0 +1,4 @@
+requests>=2.31.0
+curl_cffi>=0.7.0
+# FETCHER=browser 로 쓸 때만 필요 (무겁지만 curl_cffi 가 막힐 때의 대안)
+# playwright>=1.45.0

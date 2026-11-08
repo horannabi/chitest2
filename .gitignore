@@ -1,0 +1,6 @@
+.env
+state.json
+catalog_cache.json
+__pycache__/
+*.pyc
+.venv/
