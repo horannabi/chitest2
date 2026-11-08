@@ -1,0 +1,15 @@
+probe 2026-11-08 17:56:56 KST  date=20261110
+egress ip 20.120.247.112
+requests   searchAl BLOCKED(403 차단문구)  n=None
+requests   searchMo BLOCKED(403 차단문구)  n=None
+curl_cffi  entry page            403
+curl_cffi  searchAl BLOCKED(403 차단문구)  n=None
+curl_cffi  searchMo BLOCKED(403 차단문구)  n=None
+browser(headless) entry page 403  차단문구=True
+browser(headless) searchAl BLOCKED(403 차단문구)  n=None
+browser(headless) searchMo BLOCKED(403 차단문구)  n=None
+browser(headed)  entry page 403  차단문구=True
+browser(headed)  searchAl BLOCKED(403 차단문구)  n=None
+browser(headed)  searchMo BLOCKED(403 차단문구)  n=None
+
+OK 가 하나라도 있으면 그 방식으로 이 환경에서 감시할 수 있습니다.
